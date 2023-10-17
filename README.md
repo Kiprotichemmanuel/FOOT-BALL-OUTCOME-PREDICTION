@@ -193,9 +193,21 @@ Given that it had the highest precision, of 0.73 indicating a relatively low rat
 
 ![download](https://github.com/WatiriVivian/Capstone_project_phase5_Group2/assets/118829983/ac26dfbf-7ce0-4bd7-a327-a722bc01539c)
 
-## Model Deployment
+## Conclusion
+Our best perfoming model was the Gradient boost Model. It achieves a high level of accuracy, precision, and recall, as well as a good balance between precision and recall (as indicated by the F1-score). Moreover, its AUC score of 0.839 shows that it excels in distinguishing between different match outcomes, making it the best choice for predicting football match outcomes in your context. Given that it had the highest precision,of 0.73 indicating a relatively low rate of false positive predictions.
 
+The most important features from our model are Venue, Goals a team scored, Goals scored aganist the team, the number of shots made and the attendance of the match.
 
+Teams playing at home (In their stadium) tend to have more wins.
+
+The most popular formation is the 4-3-3 formation with the highest number of wins, 4-2-3-1 formation and the 4-4-2 formation with the lowest win rate among the three.
+
+## Recommendaations
+We recommend a deeper analysis of some of the other features (eg. player injuries/statistics , coaching styles, weather and geopolitical factors etc) that affect a football match outcomes.
+
+Building a better data collection system to capture the various factors that affect match outcomes which will help in building more robust models that capture the dynamic nature of footbal matches.
+
+We recommenend that the users of our model should bet responsibly noting that betting can lead to gambling addiction.
 
 
 
